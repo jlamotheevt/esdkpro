@@ -1,78 +1,74 @@
-# eSDK Pro — Doxygen Static Site (GitHub Pages)
+# Emergent Vision Technologies — eSDK Pro API Documentation
 
-This repo publishes the eSDK Pro Doxygen output to GitHub Pages, with:
+Welcome to the official **eSDK Pro API Reference** for Emergent Vision Technologies high-performance camera systems.
 
-- **Versioned path:** `/esdk-pro/v1.3.0/`
-- **Stable path:** `/esdk-pro/latest/` (redirects to `annotated.html`)
-- **Doxygen entry points exposed:** `annotated.html`, `index.html`, `classes.html`, `files.html`
+This documentation provides full class, method, and parameter details generated automatically from the eSDK Pro C++ headers using Doxygen. It complements the [eSDK Pro Programmer’s Guide](https://docs.emergentvisiontec.com/software/esdk-pro-programmers-guide) and other software documentation on the EVT Docs site.
 
-## Quick start
+---
 
-1. Create an empty GitHub repository (e.g., `evtech/esdkpro-docsite`) and enable **GitHub Pages → Deploy from GitHub Actions**.
-2. Download this repository ZIP, extract, and `git push` its contents to your repo's **main** branch.
-3. The included workflow `.github/workflows/deploy.yml` will publish the `./site` directory to Pages.
-4. Your Pages URL will look like `https://<org>.github.io/<repo>/`. The eSDK paths will be:
-   - `https://<org>.github.io/<repo>/esdk-pro/v1.3.0/annotated.html`
-   - `https://<org>.github.io/<repo>/esdk-pro/latest/annotated.html`
+## 🔍 About the eSDK Pro API
 
-### Custom domain (optional)
+**eSDK Pro** is the next-generation software development kit for Emergent cameras, designed for:
+- Low-latency, high-throughput image acquisition over 10 GigE, 25 GigE, and 100 GigE interfaces  
+- Seamless integration with **eCapture Pro** and other EVT applications  
+- Unified access to camera, server, and processing components through modern C++ APIs  
 
-If you want a clean subdomain like `api-docs.emergentvisiontec.com`:
+Use the Doxygen documentation here to explore available classes, functions, and enumerations within each API module.
 
-- Add a **CNAME** record in DNS pointing your subdomain to `<org>.github.io`.
-- In the repo settings → Pages, set the **Custom domain**. GitHub will create a `CNAME` file automatically.
-- After DNS propagates, the same versioned and latest paths will be available under your subdomain.
+---
 
-## Updating to a new SDK version
+## 🧭 Navigating the Documentation
 
-1. Build Doxygen as usual and produce the standard `html` folder (or a ZIP containing it).
-2. Replace the contents of `site/esdk-pro/v1.3.0/` with your new `html` output **in a new versioned folder**, e.g. `v1.3.1`.
-3. Update `site/esdk-pro/latest/` if you want to change the default "latest" version:
-   - This template uses a simple HTML redirect in `latest/index.html` to `annotated.html` within the **latest** folder itself.
-   - To update, just copy over the desired `annotated.html` etc. into `latest/` again or leave `latest/` as thin redirectors that load from the latest folder (current template keeps `latest/annotated.html` as a self-redirect).
+Start here → [**Class List**](./esdk-pro/latest/annotated.html)
 
-> Tip: Keep each version immutable; never overwrite prior versioned content.
+Key entry points:
+- **Class List** — All classes grouped by module  
+- **Class Index** — Alphabetical index of all classes and structs  
+- **File List** — Header-level documentation (`*.h`)  
+- **Modules** — Logical groupings (Core, Camera, Processing, Plugin, Support)
 
-## Optional: make `annotated.html` the visible root
+You can also deep-link to individual classes, for example:
+- [`eSdkPro::Pipeline`](./esdk-pro/latest/classeSdkPro_1_1Pipeline.html)  
+- [`eSdkPro::Camera`](./esdk-pro/latest/classeSdkPro_1_1Camera.html)
 
-We already redirect `latest/index.html` → `annotated.html`, so that `/latest/` lands on the Class List.
+---
 
-If your CDN supports rules, you can add an edge redirect from `/esdk-pro/latest/` to `/esdk-pro/latest/annotated.html` for even faster navigation.
+## 📘 Module Overview
 
-## Webflow integration
+| Module | Description |
+|---------|--------------|
+| **Core API** | Systems, servers, pipelines, synchronization, logging |
+| **Camera API** | Camera lifecycle and typed camera parameters |
+| **Processing API** | Task graphs, frames, FlexTrans, and processing nodes |
+| **Plugin API** | Plugin development (custom `TaskWorker`, plugin ports and parameters) |
+| **Support API** | Exception handling, error codes, version constants |
 
-On your Webflow **eSDK Pro API Reference** page, add a small "Reference hub":
+---
 
-```html
-<ul class="reference-hub">
-  <li><a href="https://YOUR-PAGES-DOMAIN/esdk-pro/latest/annotated.html" target="_blank" rel="noopener">Class list (Doxygen)</a></li>
-  <li><a href="https://YOUR-PAGES-DOMAIN/esdk-pro/latest/classes.html" target="_blank" rel="noopener">Class index</a></li>
-  <li><a href="https://YOUR-PAGES-DOMAIN/esdk-pro/latest/files.html" target="_blank" rel="noopener">File list</a></li>
-  <li><a href="https://YOUR-PAGES-DOMAIN/esdk-pro/latest/index.html" target="_blank" rel="noopener">Full index</a></li>
-</ul>
-```
+## ⚙️ SDK Version
 
-For deep links (examples):
-- Pipeline: `https://YOUR-PAGES-DOMAIN/esdk-pro/latest/classeSdkPro_1_1Pipeline.html`
-- Camera: `https://YOUR-PAGES-DOMAIN/esdk-pro/latest/classeSdkPro_1_1Camera.html`
+Current reference: **eSDK Pro v1.3.0**  
+The latest version is always accessible at:
+https://jlamotheevt.github.io/esdkpro/esdk-pro/latest/
 
-## Allowing iframe embeds (optional)
 
-If you plan to embed Doxygen inside Webflow with an `<iframe>`, ensure your host does **not** send `X-Frame-Options: DENY` and your `Content-Security-Policy` allows `frame-ancestors` for your Webflow domain.
+Specific versions are archived at `/esdk-pro/vX.Y.Z/`.
 
-Then use:
+---
 
-```html
-<div style="position:relative;padding-top:56.25%">
-  <iframe
-    src="https://YOUR-PAGES-DOMAIN/esdk-pro/latest/annotated.html"
-    style="position:absolute;inset:0;width:100%;height:100%;border:0"
-    loading="lazy"></iframe>
-</div>
-```
+## 🧩 Related Documentation
 
-## Notes
+- [eSDK Pro Programmer’s Guide](https://docs.emergentvisiontec.com/software/esdk-pro-programmers-guide)  
+- [eCapture Pro User Guide](https://docs.emergentvisiontec.com/software/ecapture-pro-user-guide)  
+- [Emergent Vision Technologies Developer Portal](https://docs.emergentvisiontec.com/software/)
 
-- The `.nojekyll` file prevents GitHub Pages from altering file paths that contain underscores—important for Doxygen.
-- This repo is **static**; no build step is required for publishing pre-generated Doxygen HTML.
-- If you want to fully automate pulling the latest Doxygen ZIP from releases, add a job step that uses the GitHub REST API or `gh` CLI to download the latest asset and unpack into `site/esdk-pro/<new-version>/` before uploading the Pages artifact.
+---
+
+## 🛠️ Notes
+
+- This documentation is **read-only** and generated automatically from the eSDK Pro source headers using Doxygen.  
+- For integration examples and build instructions, refer to the Programmer’s Guide.  
+- All trademarks are property of their respective owners. © Emergent Vision Technologies Inc.
+
+---
+
