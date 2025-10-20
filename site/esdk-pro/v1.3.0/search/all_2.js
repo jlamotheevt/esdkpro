@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['camera_0',['Camera',['../classeSdkPro_1_1Camera.html',1,'eSdkPro']]],
+  ['cameradiscoveryinfo_1',['CameraDiscoveryInfo',['../structeSdkPro_1_1CameraDiscoveryInfo.html',1,'eSdkPro']]],
+  ['cameraopenconfig_2',['CameraOpenConfig',['../structeSdkPro_1_1CameraOpenConfig.html',1,'eSdkPro']]],
+  ['cameraparam_3',['CameraParam',['../classeSdkPro_1_1CameraParam.html',1,'eSdkPro']]],
+  ['cameratask_4',['CameraTask',['../classeSdkPro_1_1CameraTask.html',1,'eSdkPro']]],
+  ['close_5',['Close',['../classeSdkPro_1_1Camera.html#a709167d1bdb7017d7205439d7d7c3b50',1,'eSdkPro::Camera']]],
+  ['commandcameraparam_6',['CommandCameraParam',['../classeSdkPro_1_1CommandCameraParam.html',1,'eSdkPro']]],
+  ['connectserver_7',['ConnectServer',['../classeSdkPro_1_1System.html#ad63d3257fc09a5c8abca39b469cd4efe',1,'eSdkPro::System']]],
+  ['connecttasks_8',['ConnectTasks',['../classeSdkPro_1_1Pipeline.html#aab1ff0d199ff401223c96b85c697323f',1,'eSdkPro::Pipeline']]],
+  ['create_9',['Create',['../classeSdkPro_1_1System.html#a1d62df752d457c5c0c0afa6a063d1553',1,'eSdkPro::System']]],
+  ['createcameratask_10',['CreateCameraTask',['../classeSdkPro_1_1Pipeline.html#a83460afbba32f8343db7db8269c3a527',1,'eSdkPro::Pipeline']]],
+  ['createframegentask_11',['CreateFrameGenTask',['../classeSdkPro_1_1Pipeline.html#a913b92806acdebb7abdeb06ca2cbe9d0',1,'eSdkPro::Pipeline']]],
+  ['createframeinput_12',['CreateFrameInput',['../classeSdkPro_1_1Plugin_1_1TaskWorker.html#aa5cc6943e7ca5f69cb1aa72bbc683a9a',1,'eSdkPro::Plugin::TaskWorker']]],
+  ['createimagedisplaytask_13',['CreateImageDisplayTask',['../classeSdkPro_1_1Pipeline.html#ae68264badf4e45a61e40dafbb25896bc',1,'eSdkPro::Pipeline']]],
+  ['createlocalserver_14',['CreateLocalServer',['../classeSdkPro_1_1System.html#a2dc774e3e42cb4c137246489228f74b4',1,'eSdkPro::System']]],
+  ['createnvenctask_15',['CreateNvencTask',['../classeSdkPro_1_1Pipeline.html#a0ee47ffc35a653f2bd86447b0f479144',1,'eSdkPro::Pipeline']]],
+  ['createparameter_16',['CreateParameter',['../classeSdkPro_1_1Plugin_1_1TaskWorker.html#aef9786e5335fa37441466e42bd178c97',1,'eSdkPro::Plugin::TaskWorker']]],
+  ['createplugintask_17',['CreatePluginTask',['../classeSdkPro_1_1Pipeline.html#ab04e14a230f8d5baab7977ab26d833da',1,'eSdkPro::Pipeline']]],
+  ['createrawsavingtask_18',['CreateRawSavingTask',['../classeSdkPro_1_1Pipeline.html#aa797b1d386c486addd219ea29120deef',1,'eSdkPro::Pipeline']]]
+];

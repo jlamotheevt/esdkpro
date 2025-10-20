@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['setcpucore_0',['SetCpuCore',['../classeSdkPro_1_1Task.html#a42ca40103eba3491d2c54852d27ac893',1,'eSdkPro::Task']]],
+  ['setdirectio_1',['SetDirectIO',['../classeSdkPro_1_1RawSavingTask.html#a019b86a931012bd5442c41568ff0986a',1,'eSdkPro::RawSavingTask']]],
+  ['setgpudeviceid_2',['SetGpuDeviceId',['../classeSdkPro_1_1Task.html#aa64877c817809b9fc792bc0fd6f230f4',1,'eSdkPro::Task']]],
+  ['setidx_3',['SetIdx',['../classeSdkPro_1_1Plugin_1_1EnumTaskParam.html#aa6285f65c0cc797df3ce0331940991b2',1,'eSdkPro::Plugin::EnumTaskParam::SetIdx()'],['../classeSdkPro_1_1EnumTaskParam.html#a5f8689da8eb4fc71ea667a3d5577c6f0',1,'eSdkPro::EnumTaskParam::SetIdx()']]],
+  ['setlabel_4',['SetLabel',['../classeSdkPro_1_1Task.html#aa8cded55b5420a988220073a1e191443',1,'eSdkPro::Task']]],
+  ['setmultirecordingpaths_5',['SetMultiRecordingPaths',['../classeSdkPro_1_1RawSavingTask.html#a66d88eb4556d9a1d208680bbbfa38175',1,'eSdkPro::RawSavingTask']]],
+  ['setname_6',['SetName',['../classeSdkPro_1_1Plugin_1_1TaskWorker.html#a2c597623b97419a78526a1e0e6db7919',1,'eSdkPro::Plugin::TaskWorker']]],
+  ['setoptions_7',['SetOptions',['../classeSdkPro_1_1Plugin_1_1EnumTaskParam.html#a0b4bbd9bb28b01ad861b93713cf5a043',1,'eSdkPro::Plugin::EnumTaskParam']]],
+  ['setpreviewquality_8',['SetPreviewQuality',['../classeSdkPro_1_1System.html#a877dd5017848ba13d0e11a0f36f2b302',1,'eSdkPro::System']]],
+  ['setptpsyncmode_9',['SetPtpSyncMode',['../classeSdkPro_1_1Pipeline.html#aec5e9ba0784169808642c63c01e12eac',1,'eSdkPro::Pipeline']]],
+  ['settooltip_10',['SetToolTip',['../classeSdkPro_1_1Plugin_1_1TaskParam.html#a8ab37130644c806d912feb60fc8c932e',1,'eSdkPro::Plugin::TaskParam']]],
+  ['setvalue_11',['SetValue',['../classeSdkPro_1_1Plugin_1_1Int32TaskParam.html#a423649fda68dcb60cf469361f34c5f55',1,'eSdkPro::Plugin::Int32TaskParam::SetValue()'],['../classeSdkPro_1_1Plugin_1_1FloatTaskParam.html#a60036449f42dcacb4fd50837f29be75f',1,'eSdkPro::Plugin::FloatTaskParam::SetValue()'],['../classeSdkPro_1_1Plugin_1_1BoolTaskParam.html#add32bc3f28403d37343b0ec1c9645196',1,'eSdkPro::Plugin::BoolTaskParam::SetValue()'],['../classeSdkPro_1_1Plugin_1_1StringTaskParam.html#ab255ae2d0287a367c31cc127b6d2b4c7',1,'eSdkPro::Plugin::StringTaskParam::SetValue()'],['../classeSdkPro_1_1Int32TaskParam.html#ac782a499cc40adbc190f84c3571f221e',1,'eSdkPro::Int32TaskParam::SetValue()'],['../classeSdkPro_1_1FloatTaskParam.html#a105b3ff3fc74e3244103c7e77613ea6c',1,'eSdkPro::FloatTaskParam::SetValue()'],['../classeSdkPro_1_1BoolTaskParam.html#ac58e0266040ab1f6f2268250dbc912c3',1,'eSdkPro::BoolTaskParam::SetValue()'],['../classeSdkPro_1_1StringTaskParam.html#a6cd5a88eec0f8a32b9f316afccb0e901',1,'eSdkPro::StringTaskParam::SetValue()']]],
+  ['start_12',['Start',['../classeSdkPro_1_1Pipeline.html#a25c641053a8cad855c4a3bcede56887b',1,'eSdkPro::Pipeline::Start()'],['../classeSdkPro_1_1Plugin_1_1TaskWorker.html#a709263f1dcddc5adb04802fa431162a3',1,'eSdkPro::Plugin::TaskWorker::Start()']]],
+  ['startimagepreview_13',['StartImagePreview',['../classeSdkPro_1_1Camera.html#a3bf2699e0fe2cc153a8d6b009fe976d8',1,'eSdkPro::Camera']]],
+  ['startstreaming_14',['StartStreaming',['../classeSdkPro_1_1Camera.html#a3b19ddfac8e279f0b767809fa5c6ec1a',1,'eSdkPro::Camera']]],
+  ['stop_15',['Stop',['../classeSdkPro_1_1Pipeline.html#a8ac21de1d400a38f7ca2c6007383b5ad',1,'eSdkPro::Pipeline::Stop()'],['../classeSdkPro_1_1Plugin_1_1TaskWorker.html#a45340eaa21535845843e3f9587f3d262',1,'eSdkPro::Plugin::TaskWorker::Stop()']]],
+  ['stopimagepreview_16',['StopImagePreview',['../classeSdkPro_1_1Camera.html#a93dc660c2782c80097f01ac31e770a7a',1,'eSdkPro::Camera']]],
+  ['stopstreaming_17',['StopStreaming',['../classeSdkPro_1_1Camera.html#ac25c214dd69d9c6ff15bb46787608d40',1,'eSdkPro::Camera']]],
+  ['stringtaskparam_18',['StringTaskParam',['../classeSdkPro_1_1Plugin_1_1StringTaskParam.html#a6dfc3225a61d76dfbc64aebb7164c56f',1,'eSdkPro::Plugin::StringTaskParam::StringTaskParam()'],['../classeSdkPro_1_1StringTaskParam.html#ab52db73d5b47d344ca65e97373059b74',1,'eSdkPro::StringTaskParam::StringTaskParam()']]]
+];
